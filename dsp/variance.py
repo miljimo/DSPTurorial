@@ -1,0 +1,7 @@
+import numpy as np;
+import mysignal as sigs;
+
+
+variance  =  np.var(sigs.InputSignal_1kHz_15kHz);
+
+print(variance);
